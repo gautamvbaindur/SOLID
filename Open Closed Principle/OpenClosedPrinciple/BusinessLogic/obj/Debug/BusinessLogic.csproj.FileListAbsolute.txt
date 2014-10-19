@@ -1,0 +1,2 @@
+F:\OOPZ\Open Closed Principle\OpenClosedPrinciple\BusinessLogic\bin\Debug\BusinessLogic.exe.config
+F:\OOPZ\Open Closed Principle\OpenClosedPrinciple\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
