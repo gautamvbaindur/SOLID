@@ -6,27 +6,21 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    public class PriceOffer : IOffers
+    public class SugarOffer:IOffers
     {
-        #region IOffers Members
-
         public bool IsValid
         {
-            get { return true; }
+            get { return false; }
         }
 
         public int CutOffForoffer
         {
-            get { return 1000; }
+            get { return 0; }
         }
 
         public bool ShouldOfferBeApplied
         {
-            get { return IsValid && CutOffForoffer >= 1000; }
+            get { return false; }
         }
-
-        
-        #endregion
-
     }
 }

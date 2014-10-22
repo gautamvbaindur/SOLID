@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    public class NilgirisSuperMarket
+    public class NilgirisSuperMarket : ISuperMarket
     {
-        public void ApplyOffer()
+        public void ApplyOfferAndCalculateBill(List<IProduct> listOfProducts)
         {
-
+            throw new NotImplementedException();
         }
-
-
     }
 }

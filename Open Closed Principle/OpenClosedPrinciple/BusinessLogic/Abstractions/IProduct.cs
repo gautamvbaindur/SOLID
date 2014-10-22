@@ -11,13 +11,6 @@ namespace BusinessLogic
         int GetPrice { get; }
         int Quantity { get; }
         int TotalAmount { get; }
-        int Quality { get; }
-        int Product { get; }
-        
-
-        
-
-
-       
+        IOffers GetOffer { get; }
     }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogic
+namespace BusinessLogic.Abstractions
 {
-    public interface ISuperMarket
+    public interface ICustomers
     {
-        void ApplyOfferAndCalculateBill(List<IProduct> listOfProducts);
+        List<IProduct> BuyProducts();
     }
 }
